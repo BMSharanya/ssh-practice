@@ -14,6 +14,6 @@ jobs:
         run: echo "Hello from Self-Hosted Runner"
 
       - name: Print Message 2
-        run: echo "Checking Runner is connected successfully or not again"
+        run: echo "Checking Runner is connected successfully or not again :>"
 
       
