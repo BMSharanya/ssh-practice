@@ -1,0 +1,23 @@
+name: Self Hosted Runner Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-runner:
+    runs-on: self-hosted
+
+    steps:
+      - name: Print Message 1
+        run: echo "Hello from Self-Hosted Runner"
+
+      - name: Print Message 2
+        run: echo "Runner is connected successfully"
+
+      - name: Print System Info
+        run: uname -a
+
+      - name: Print Current User
+        run: whoami
