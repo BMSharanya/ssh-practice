@@ -1,0 +1,19 @@
+name: Shr
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-runner:
+    runs-on: self-hosted
+
+    steps:
+      - name: Print Message 1
+        run: echo "Hello from Self-Hosted Runner"
+
+      - name: Print Message 2
+        run: echo "Checking Runner is connected successfully or not again"
+
+      
